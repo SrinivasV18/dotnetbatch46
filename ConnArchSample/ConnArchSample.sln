@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnArchSample", "ConnArchSample\ConnArchSample.csproj", "{A50F4041-F52B-4EDD-9490-5CF08E1708EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A50F4041-F52B-4EDD-9490-5CF08E1708EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A50F4041-F52B-4EDD-9490-5CF08E1708EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A50F4041-F52B-4EDD-9490-5CF08E1708EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A50F4041-F52B-4EDD-9490-5CF08E1708EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80434C48-37F1-4213-89B5-516AD3B23BA5}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+F:\.Net Trainings\Batch45\ClassLibrarySample\ClassLibrary1\bin\Debug\net5.0\ClassLibrary1.deps.json
+F:\.Net Trainings\Batch45\ClassLibrarySample\ClassLibrary1\bin\Debug\net5.0\ClassLibrary1.dll
+F:\.Net Trainings\Batch45\ClassLibrarySample\ClassLibrary1\bin\Debug\net5.0\ClassLibrary1.pdb
+F:\.Net Trainings\Batch45\ClassLibrarySample\ClassLibrary1\obj\Debug\net5.0\ClassLibrary1.csproj.AssemblyReference.cache
+F:\.Net Trainings\Batch45\ClassLibrarySample\ClassLibrary1\obj\Debug\net5.0\ClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+F:\.Net Trainings\Batch45\ClassLibrarySample\ClassLibrary1\obj\Debug\net5.0\ClassLibrary1.AssemblyInfoInputs.cache
+F:\.Net Trainings\Batch45\ClassLibrarySample\ClassLibrary1\obj\Debug\net5.0\ClassLibrary1.AssemblyInfo.cs
+F:\.Net Trainings\Batch45\ClassLibrarySample\ClassLibrary1\obj\Debug\net5.0\ClassLibrary1.csproj.CoreCompileInputs.cache
+F:\.Net Trainings\Batch45\ClassLibrarySample\ClassLibrary1\obj\Debug\net5.0\ClassLibrary1.dll
+F:\.Net Trainings\Batch45\ClassLibrarySample\ClassLibrary1\obj\Debug\net5.0\refint\ClassLibrary1.dll
+F:\.Net Trainings\Batch45\ClassLibrarySample\ClassLibrary1\obj\Debug\net5.0\ClassLibrary1.pdb
+F:\.Net Trainings\Batch45\ClassLibrarySample\ClassLibrary1\obj\Debug\net5.0\ref\ClassLibrary1.dll

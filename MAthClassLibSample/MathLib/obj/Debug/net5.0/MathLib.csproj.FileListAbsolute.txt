@@ -1,0 +1,12 @@
+F:\.Net Trainings\Batch46\MAthClassLibSample\MathLib\bin\Debug\net5.0\MathLib.deps.json
+F:\.Net Trainings\Batch46\MAthClassLibSample\MathLib\bin\Debug\net5.0\MathLib.dll
+F:\.Net Trainings\Batch46\MAthClassLibSample\MathLib\bin\Debug\net5.0\MathLib.pdb
+F:\.Net Trainings\Batch46\MAthClassLibSample\MathLib\obj\Debug\net5.0\MathLib.csproj.AssemblyReference.cache
+F:\.Net Trainings\Batch46\MAthClassLibSample\MathLib\obj\Debug\net5.0\MathLib.GeneratedMSBuildEditorConfig.editorconfig
+F:\.Net Trainings\Batch46\MAthClassLibSample\MathLib\obj\Debug\net5.0\MathLib.AssemblyInfoInputs.cache
+F:\.Net Trainings\Batch46\MAthClassLibSample\MathLib\obj\Debug\net5.0\MathLib.AssemblyInfo.cs
+F:\.Net Trainings\Batch46\MAthClassLibSample\MathLib\obj\Debug\net5.0\MathLib.csproj.CoreCompileInputs.cache
+F:\.Net Trainings\Batch46\MAthClassLibSample\MathLib\obj\Debug\net5.0\MathLib.dll
+F:\.Net Trainings\Batch46\MAthClassLibSample\MathLib\obj\Debug\net5.0\refint\MathLib.dll
+F:\.Net Trainings\Batch46\MAthClassLibSample\MathLib\obj\Debug\net5.0\MathLib.pdb
+F:\.Net Trainings\Batch46\MAthClassLibSample\MathLib\obj\Debug\net5.0\ref\MathLib.dll
