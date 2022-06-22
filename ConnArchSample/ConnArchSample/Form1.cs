@@ -36,13 +36,10 @@ namespace ConnArchSample
                 textBox1.Text = dr[0].ToString();
                 textBox2.Text = dr[1].ToString();
             }
-            //catch (Inv ex)
-            //{
-            //    MessageBox.Show(ex.Message);
-            //}
+            
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show("Error occured-" + ex.Message);
             }
             
 
