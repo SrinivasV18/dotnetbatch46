@@ -35,7 +35,7 @@ namespace DapperProdutsApi.Controllers
         [HttpGet("/getScalar")]
         public string GetScalar()
         {
-            var version = con.ExecuteScalar<string>("SELECT count(*) from products");
+            var version = con.ExecuteScalar<string>("SELECT @@VERSION");
             return version;
         }
 

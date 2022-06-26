@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\.Net Trainings\\Batch46\\ConnArchSample\\ConnArchSample\\ConnArchSample.csproj": {}
+    "C:\\Users\\dell\\Source\\Repos\\dotnetbatch46\\ConnArchSample\\ConnArchSample\\ConnArchSample.csproj": {}
   },
   "projects": {
-    "F:\\.Net Trainings\\Batch46\\ConnArchSample\\ConnArchSample\\ConnArchSample.csproj": {
+    "C:\\Users\\dell\\Source\\Repos\\dotnetbatch46\\ConnArchSample\\ConnArchSample\\ConnArchSample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\.Net Trainings\\Batch46\\ConnArchSample\\ConnArchSample\\ConnArchSample.csproj",
+        "projectUniqueName": "C:\\Users\\dell\\Source\\Repos\\dotnetbatch46\\ConnArchSample\\ConnArchSample\\ConnArchSample.csproj",
         "projectName": "ConnArchSample",
-        "projectPath": "F:\\.Net Trainings\\Batch46\\ConnArchSample\\ConnArchSample\\ConnArchSample.csproj",
+        "projectPath": "C:\\Users\\dell\\Source\\Repos\\dotnetbatch46\\ConnArchSample\\ConnArchSample\\ConnArchSample.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "F:\\.Net Trainings\\Batch46\\ConnArchSample\\ConnArchSample\\obj\\",
+        "outputPath": "C:\\Users\\dell\\Source\\Repos\\dotnetbatch46\\ConnArchSample\\ConnArchSample\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

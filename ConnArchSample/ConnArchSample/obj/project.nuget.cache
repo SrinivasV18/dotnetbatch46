@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/nSirTmIashEs1xmRqR/LO5L4Zh0PShQ6itd70VSgSHiEVk/J5pmUbUZg9J+F6n4gCPN7X8PSnGiFIszjlLsNQ==",
+  "dgSpecHash": "w3mwhVgznLAAfiLE6Asg96dqG823i6ljgpin7D+Uc+VzsYVNNKFf47MditTuPkBQ1Dg0LlIvWcn5IX6RR1kXyg==",
   "success": true,
-  "projectFilePath": "F:\\.Net Trainings\\Batch46\\ConnArchSample\\ConnArchSample\\ConnArchSample.csproj",
+  "projectFilePath": "C:\\Users\\dell\\Source\\Repos\\dotnetbatch46\\ConnArchSample\\ConnArchSample\\ConnArchSample.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dell\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
