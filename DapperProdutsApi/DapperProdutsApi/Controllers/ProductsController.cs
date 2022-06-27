@@ -38,7 +38,24 @@ namespace DapperProdutsApi.Controllers
             var version = con.ExecuteScalar<string>("SELECT @@VERSION");
             return version;
         }
+        // POST api/<ProductsController>
+        [HttpPost("/insertProductForm")]
+        public int InsertProductsForm([FromBody] ProductsModel productData)
+        {
+            //var query = "INSERT INTO products(name, price) VALUES(@name, @price)";
 
+            //var dp = new DynamicParameters();
+            //dp.Add("@name", name, DbType.AnsiString, ParameterDirection.Input, 255);
+            //dp.Add("@price", price);
+            
+            int res = 1; // con.Execute(query, dp);
+
+            if (res > 0)
+            {
+                return 1;
+            }
+            return 0;
+        }
         // POST api/<ProductsController>
         [HttpPost("/insertProduct")]
         public int InsertProducts( string name, string price)
