@@ -88,6 +88,32 @@ namespace Dapperwithproducts.Controllers
 
 
         }
+        // POST api/<ProductsController>
+        [HttpPost("GetProductFromProc")]
+        public ProductsModel GetProductFromProc(int id)
+        {
+            try
+            {
+                var query = "sp_getProductFromID @id";
+
+                var dp = new DynamicParameters();
+                dp.Add("@id", id);
+
+                var  res = con.QueryFirstOrDefault<ProductsModel>(query, dp);
+                if (res != null)
+                {
+                    return res;
+                }
+                return null;
+            }
+            catch (Exception ex)
+            {
+                return null;
+                //return ex.Message;
+            }
+
+
+        }
 
         // PUT api/<ProductsController>/5
         [HttpPut("UpdateProduct")]
