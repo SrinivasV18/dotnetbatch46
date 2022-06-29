@@ -1,4 +1,5 @@
 ﻿using Dapper;
+using Dapperwithproducts.Logger;
 using Dapperwithproducts.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -6,6 +7,9 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Net;
+using System.Net.Http;
+//using System.Web.Http;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -16,9 +20,12 @@ namespace Dapperwithproducts.Controllers
     public class ProductsController : ControllerBase
     {
         SqlConnection con;
-        public ProductsController(IConfiguration _configuration)
+        private ILog logger;
+
+        public ProductsController(IConfiguration _configuration, ILog logger)
         {
             con = new SqlConnection(_configuration.GetConnectionString("myDb"));
+            this.logger = logger;
         }
         // GET: api/<ProductsController>
         [HttpGet("ProductCount")]
@@ -29,9 +36,23 @@ namespace Dapperwithproducts.Controllers
 
         }
         [HttpGet("GetProducts")]
-        public IEnumerable<ProductsModel> GetProducts()
+        public ProductsModel GetProducts(int id)
         {
-            var productsData = con.Query<ProductsModel>("SELECT * from products");
+            logger.Information("Get Products method called...");
+            var dp = new DynamicParameters();
+            dp.Add("@id", id);
+            ProductsModel productsData = con.QueryFirstOrDefault<ProductsModel>("SELECT * from products where id = @id",dp);
+            if (productsData == null)
+            {
+                var resp = new HttpResponseMessage(HttpStatusCode.NotFound)
+                {
+                    Content = new StringContent(string.Format("No product with ID = {0}", id)),
+                    ReasonPhrase = "Product ID Not Found"
+                };
+                logger.Error("Error occured in Get Products.");
+                throw new System.Web.Http.HttpResponseException(resp);
+            }
+
             return productsData;
 
         }

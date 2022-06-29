@@ -1,4 +1,4 @@
-using Dapperwithproducts.Logger;
+using ErrorHandling.Shared;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -13,7 +13,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Dapperwithproducts
+namespace ErrorHandling
 {
     public class Startup
     {
@@ -31,10 +31,9 @@ namespace Dapperwithproducts
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Dapperwithproducts", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "ErrorHandling", Version = "v1" });
             });
-            services.AddSingleton<ILog, LogNLog>();
-
+            services.AddSingleton<INLog, LogNLog>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -44,9 +43,9 @@ namespace Dapperwithproducts
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Dapperwithproducts v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ErrorHandling v1"));
             }
-
+            app.UseMiddleware(typeof(ExceptionHandlingMiddleware));
             app.UseHttpsRedirection();
 
             app.UseRouting();
